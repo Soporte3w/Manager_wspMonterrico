@@ -87,7 +87,7 @@ const Sidebar = () => {
               <span>Instancias</span>
             </NavLink>
           </li>
-          {/* <li>
+          <li>
             <NavLink
               to="/campanas"
               className={({ isActive }) =>
@@ -97,8 +97,8 @@ const Sidebar = () => {
               <AiOutlineWhatsApp />
               <span>Camp WSP</span>
             </NavLink>
-          </li> */}
-          <li>
+          </li>
+          {/*<li>
             <NavLink
               to="/campanasCall"
               className={({ isActive }) =>
@@ -108,7 +108,7 @@ const Sidebar = () => {
               <AiOutlinePhone />
               <span>Camp call</span>
             </NavLink>
-          </li>
+          </li> */}
         </ul>
         <div className="bottom-section">
           <ul className="menu">

@@ -54,7 +54,7 @@ const CONFIG = {
   QUEUE_API_URL: 'http://188.245.38.255:5000/api/sendwhatsapp/colaenvio/?empresa=monterrico',
   CONFIRMATION_API_URL: 'http://188.245.38.255:5000/api/sendwhatsapp/envio',
   INSTANCES_API_URL: 'http://localhost:5000/api/instances',
-  SEND_MESSAGE_API_BASE_URL: 'https://apievo.3w.pe/message/',
+  SEND_MESSAGE_API_BASE_URL: 'https://wsp.monterrico.app/message/',
 
   // Archivo de persistencia
   SENT_MESSAGES_FILE: path.join(__dirname, 'sentMessages.json'),
